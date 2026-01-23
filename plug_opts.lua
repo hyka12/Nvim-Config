@@ -31,7 +31,7 @@ require('dashboard').setup()
 require('lualine').setup()
 require('nvim-tree').setup()
 
-require("nvim-treesitter.configs").setup {
+require('nvim-treesitter').setup {
   ensure_installed = {
     "c",
     "cpp",
@@ -102,7 +102,6 @@ filetypes = { 'c', 'cpp', 'objc', 'objcpp', 'cuda' },
 
 vim.lsp.enable('clangd')
 
---Diagnostics
 vim.diagnostic.config({
 virtual_text = { prefix = '?' },
 signs = true,
