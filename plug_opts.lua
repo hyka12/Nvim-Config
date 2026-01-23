@@ -89,13 +89,13 @@ vim.lsp.config('clangd', {
 capabilities = capabilities,
 on_attach = keymaps,
 cmd = {
-  'clangd',
-  '--background-index',
-  '--header-insertion=never',
-  '--completion-style=detailed',
+  "clangd",
+  "--background-index",
+  "--header-insertion=never",
+  "--completion-style=detailed",
   "--limit-results=500",
   "--limit-references=1000",
-  "--worker-threads=2"
+  "--clang-tidy=false",
 },
 filetypes = { 'c', 'cpp', 'objc', 'objcpp', 'cuda' },
 })
