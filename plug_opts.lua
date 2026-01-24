@@ -96,6 +96,7 @@ cmd = {
   "--limit-results=500",
   "--limit-references=1000",
   "--clang-tidy=false",
+  "2>NUL"
 },
 filetypes = { 'c', 'cpp', 'objc', 'objcpp', 'cuda' },
 })
