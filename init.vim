@@ -53,7 +53,6 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 " Appearance
 Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
-Plug 'nvimdev/dashboard-nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'nvim-treesitter/nvim-treesitter'
 
