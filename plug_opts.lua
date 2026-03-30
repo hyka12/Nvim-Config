@@ -27,7 +27,6 @@ require('catppuccin').setup({
 
 vim.cmd.colorscheme "catppuccin"
 
-require('dashboard').setup()
 require('lualine').setup()
 require('nvim-tree').setup()
 
